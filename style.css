@@ -1,0 +1,148 @@
+.navbar-outer{
+    display: flex;
+    gap: 10px;
+    border: black solid 3px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 50px;
+    text-align: center;
+    align-items: center;
+    background-color: #E2B59A;
+    padding: 5px;
+}
+
+.navbar-inner{
+    display:flex;
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 3;
+    font-size: 1.3rem;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0,
+        "SHRP" 0;
+
+    
+}
+
+.logo{
+    flex: 1;
+    max-width: 200px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0,
+        "SHRP" 0;
+    font-size: 1.8rem;
+}
+
+body{
+    background-color: #B77466;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.priceTable{
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+    gap: 40px;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.priceBox{
+    border: black 2px solid;
+    flex: 1;
+    text-align: center;
+    min-width: 250px;
+    font-family: "Geologica", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "slnt" 0,
+        "CRSV" 0,
+        "SHRP" 0;
+    background-color: #FFE1AF;
+}
+
+.price{
+    font-size: 2rem;
+    margin: 15px 0px;
+}
+
+.tier{
+    font-weight: 700;
+    font-size: 1.3rem;
+    margin: 15px 0px;
+}
+
+.button{
+    margin: 0 auto;
+    width: 100px;
+}
+.signUp{
+    padding: 4px;
+    color: white;
+    border: 2px black solid;
+    border-radius: 10px;
+    background-color: #957C62;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    padding: 0px 20px;
+}
+
+
+
+.image{
+    flex: 1 1 600px;
+    max-width: 400px;
+}
+.image > img{
+    width: 100%;
+    height: auto;
+    border-radius: 50px;
+    border: 5px black solid;
+}
+
+.banner p {
+    max-width: 500px;
+    text-align: center;
+    font-family: "Nothing You Could Do", cursive;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.1rem;
+}
+
+#backgroundBanner1{
+    background-color: #E2B59A;
+    margin: 0px -28px;
+    padding: 50px 0px;
+}
+
+#backgroundBanner2{
+    background-color: #957C62;
+    margin: 0px -28px;
+    padding: 50px 0px;
+}
+
+#footer{
+    margin: 0px auto;
+    text-align: center;
+    opacity: 0.7;
+    padding-top: 4px;
+}
